@@ -1,0 +1,47 @@
+generated: '2026-10-21'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://help.usehaystack.io/features/release-notes.md
+sources:
+- https://help.usehaystack.io/features/release-notes.md
+- https://help.usehaystack.io/other/changelog.md
+entries:
+- breaking: false
+  highlights:
+  - Surveys (Beta) – January 8, 2025 – Developer Experience Surveys (Beta) enables teams to gather valuable feedback about their development processes.
+  date: '2025-01-08'
+- breaking: false
+  highlights:
+  - MS Teams Integration (Beta) – Haystack’s MS Teams integration sends real-time alerts for blockers, progress, risks, and SLAs.
+  date: '2025-01-08'
+- breaking: false
+  highlights:
+  - Dynamic End Date in Reporting – You can automatically update the 'End Date' for your reports.
+- breaking: false
+  highlights:
+  - Sprint Completion Rate metric without injections – Now you can track Sprint Completion Rate excluding injections, which we called Commitment
+    Reliability.
+  date: '2024-11-19'
+- breaking: false
+  highlights:
+  - Q3 summary – We have compiled a review of your key accomplishments from the last quarter.
+  date: '2024-10-09'
+- breaking: false
+  highlights:
+  - Hide GIFs from alerts – While GIFs in alerts provide more fun during your working hours, we realized that if you use Alerts for a long time,
+    they become less exciting and more of a distraction.
+  date: '2024-09-19'
+- breaking: false
+  highlights:
+  - Q2 Summary improvement – We now hide the epics slide in the Q2 summary if you didn’t use epics for the past quarter.
+  date: '2024-09-12'
+- breaking: false
+  highlights:
+  - Labels for PR metrics – Added labels for grouping PR metrics.
+  date: '2024-09-10'
+- breaking: false
+  highlights:
+  - Faster log in – Your account now loads faster after logging in.
+  date: '2024-09-03'
+note: Versioning scheme and current version are not specified in the provided documentation; therefore they are set to null.
+docs: https://help.usehaystack.io/features/release-notes.md

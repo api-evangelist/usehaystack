@@ -1,0 +1,29 @@
+generated: '2026-10-21'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.usehaystack.io/pricing
+sources:
+- https://www.usehaystack.io/pricing
+- https://help.usehaystack.io/admin/account-and-billing/managing-your-subscription-billing-plans-and-cancellation.md
+- https://help.usehaystack.io/admin/account-and-billing.md
+name: Haystack Analytics pricing
+audience: business-product
+pricing_basis: per-seat
+plans:
+- name: Growth
+  price_text: $20/member per month (annual commitment)
+  price: 20
+  billing_period: monthly
+  description: Best for teams under 100 engineers.
+- name: Enterprise
+  price_text: Custom pricing
+  description: Our most powerful plan for teams of 100+ engineers.
+  features:
+  - On-Premise / Custom Integrations
+  - Dedicated Performance Specialist
+  - Quarterly Performance Reports
+  - Team Training / Onboarding Sessions
+  limits:
+  - name: pricing_basis
+    limit_text: negotiated
+docs: https://www.usehaystack.io/pricing
