@@ -1,4 +1,4 @@
-generated: '2026-10-21'
+generated: '2026-10-22'
 method: searched
 generator: extract-docs-artifacts.py (local)
 source: https://help.usehaystack.io/features/release-notes.md
@@ -8,40 +8,47 @@ sources:
 entries:
 - breaking: false
   highlights:
-  - Surveys (Beta) – January 8, 2025 – Developer Experience Surveys (Beta) enables teams to gather valuable feedback about their development processes.
+  - Developer Experience Surveys (Beta) enables teams to gather valuable feedback about their development processes.
+  - Managers can now track both data-driven measurements and team sentiment in one place.
   date: '2025-01-08'
 - breaking: false
   highlights:
-  - MS Teams Integration (Beta) – Haystack’s MS Teams integration sends real-time alerts for blockers, progress, risks, and SLAs.
-  date: '2025-01-08'
+  - Haystack’s MS Teams integration sends real‑time alerts for blockers, progress, risks, and SLAs.
+  - Alerts include issue status, bug SLA risks, PR link issues, sprint overcapacity, mid‑sprint reviews, cycle completions, release notes, and
+    epic completions.
 - breaking: false
   highlights:
-  - Dynamic End Date in Reporting – You can automatically update the 'End Date' for your reports.
+  - You can automatically update the 'End Date' for your reports.
+  - Dynamic end date is available in Metrics and Reports.
 - breaking: false
   highlights:
-  - Sprint Completion Rate metric without injections – Now you can track Sprint Completion Rate excluding injections, which we called Commitment
-    Reliability.
+  - Now you can track Sprint Completion Rate excluding injections, which we called Commitment Reliability.
+  - We also added Commitment Reliability (Issues) and Commitment Reliability (Points) as a metric option to Metrics and Reports.
   date: '2024-11-19'
 - breaking: false
   highlights:
-  - Q3 summary – We have compiled a review of your key accomplishments from the last quarter.
+  - We have compiled a review of your key accomplishments from the last quarter.
+  - You can now filter by property values that are empty.
   date: '2024-10-09'
 - breaking: false
   highlights:
-  - Hide GIFs from alerts – While GIFs in alerts provide more fun during your working hours, we realized that if you use Alerts for a long time,
-    they become less exciting and more of a distraction.
+  - While GIFs in alerts provide more fun during your working hours, we realized that if you use Alerts for a long time, they become less exciting
+    and more of a distraction.
+  - If you want to hide GIFs from the UI, do it in Team Settings -> Alerts -> Show GIFs.
   date: '2024-09-19'
 - breaking: false
   highlights:
-  - Q2 Summary improvement – We now hide the epics slide in the Q2 summary if you didn’t use epics for the past quarter.
+  - We now hide the epics slide in the Q2 summary if you didn’t use epics for the past quarter.
   date: '2024-09-12'
 - breaking: false
   highlights:
-  - Labels for PR metrics – Added labels for grouping PR metrics.
+  - Added labels for grouping PR metrics.
+  - We now hide the excluded information when 0 issues are excluded.
   date: '2024-09-10'
 - breaking: false
   highlights:
-  - Faster log in – Your account now loads faster after logging in.
+  - Your account now loads faster after logging in.
+  - Large teams (100+ engineers) can now set up their account without scheduling a call.
   date: '2024-09-03'
-note: Versioning scheme and current version are not specified in the provided documentation; therefore they are set to null.
+note: The pages list changelog entries by date without explicit version numbers, so versioning scheme and current version are not provided.
 docs: https://help.usehaystack.io/features/release-notes.md

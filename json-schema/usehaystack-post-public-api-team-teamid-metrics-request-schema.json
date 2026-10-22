@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/usehaystack/main/json-schema/usehaystack-post-public-api-team-teamid-metrics-request-schema.json",
+  "title": "PostPublicApiTeamTeamidMetricsRequest",
+  "x-generated": "2026-10-22",
+  "x-method": "derived",
+  "x-generator": "derive-json-schema.py",
+  "x-source": "openapi/_ae-authored/usehaystack-openapi-generated.yml#/components/schemas/PostPublicApiTeamTeamidMetricsRequest",
+  "type": "object",
+  "properties": {
+    "startDate": {
+      "type": "string",
+      "description": "The start date of the metrics data range (format: YYYY-MM-DD)."
+    },
+    "endDate": {
+      "type": "string",
+      "description": "The end date of the metrics data range (format: YYYY-MM-DD)."
+    },
+    "granularity": {
+      "type": "string",
+      "description": "The granularity of the metrics data (week/month/cycle)."
+    },
+    "type": {
+      "type": "string",
+      "description": "The type of metrics data (issue/pull_request/cycle/deployment)."
+    },
+    "groupBy": {
+      "type": "string",
+      "description": "The parameter to group the metrics data by (team/author/assignee/epic, and more)."
+    },
+    "filters": {
+      "type": "array",
+      "description": "The filter array, advised to use the filter array given by the Copy API Request feature."
+    }
+  },
+  "required": [
+    "startDate",
+    "endDate",
+    "granularity",
+    "type",
+    "groupBy"
+  ]
+}

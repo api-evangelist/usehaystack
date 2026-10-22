@@ -1,8 +1,12 @@
-generated: 2026-10-21
-method: none
-source: preflight
-
-deployment:
-  mode: none
-  auth: unknown
-  verified: derived
+{
+  "generated": "2026-10-22",
+  "method": "none",
+  "deployment": {
+    "mode": "none",
+    "endpoint": null,
+    "install": null,
+    "package": null,
+    "auth": "none",
+    "verified": "derived"
+  }
+}

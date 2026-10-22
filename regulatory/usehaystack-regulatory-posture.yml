@@ -1,0 +1,18 @@
+generated: '2026-10-22'
+method: probed
+source: https://www.usehaystack.io/privacy-policy
+signals:
+  data_retention:
+    note: Retention period is indefinite until user requests deletion.
+    evidence:
+      - source: https://www.usehaystack.io/privacy-policy
+        http_status: 200
+        fetched: /tmp/privacy.html
+        quote: "We will retain any Data you submit for as long as Haystack deems it necessary to provide adequate service to the User, unless explicitly asked by a User for their Data to be deleted."
+  subprocessors:
+    note: Indicates use of subprocessors located globally.
+    evidence:
+      - source: https://www.usehaystack.io/privacy-policy
+        http_status: 200
+        fetched: /tmp/privacy.html
+        quote: "Haystack may, from time to time, employ the services of other parties for dealing with certain processes necessary for the operation of the Website or platform. The providers of such services have access to certain personal Data provided by Users of this Website or platform and may be located in various locations throughout the world."

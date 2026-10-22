@@ -1,4 +1,4 @@
-generated: '2026-10-21'
+generated: '2026-10-22'
 method: searched
 generator: extract-docs-artifacts.py (local)
 source: https://www.usehaystack.io/pricing
@@ -16,14 +16,6 @@ plans:
   billing_period: monthly
   description: Best for teams under 100 engineers.
 - name: Enterprise
-  price_text: Custom pricing
+  price_text: Custom pricing.
   description: Our most powerful plan for teams of 100+ engineers.
-  features:
-  - On-Premise / Custom Integrations
-  - Dedicated Performance Specialist
-  - Quarterly Performance Reports
-  - Team Training / Onboarding Sessions
-  limits:
-  - name: pricing_basis
-    limit_text: negotiated
 docs: https://www.usehaystack.io/pricing

@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "@vocab": "https://usehaystack.io/schema#",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "usehaystack": "https://usehaystack.io/schema#",
+    "PostPublicApiMetricsRequest": "usehaystack:PostPublicApiMetricsRequest",
+    "startDate": {
+      "@id": "usehaystack:startDate",
+      "@type": "xsd:string"
+    },
+    "endDate": {
+      "@id": "usehaystack:endDate",
+      "@type": "xsd:string"
+    },
+    "granularity": {
+      "@id": "usehaystack:granularity",
+      "@type": "xsd:string"
+    },
+    "type": {
+      "@id": "usehaystack:type",
+      "@type": "xsd:string"
+    },
+    "groupBy": {
+      "@id": "usehaystack:groupBy",
+      "@type": "xsd:string"
+    },
+    "filters": {
+      "@id": "usehaystack:filters",
+      "@container": "@list"
+    },
+    "PostPublicApiMetricsResponse": "usehaystack:PostPublicApiMetricsResponse",
+    "data": {
+      "@id": "usehaystack:data",
+      "@container": "@list"
+    },
+    "averages": {
+      "@id": "usehaystack:averages"
+    },
+    "PostPublicApiTeamTeamidMetricsRequest": "usehaystack:PostPublicApiTeamTeamidMetricsRequest",
+    "PostPublicApiTeamTeamidMetricsResponse": "usehaystack:PostPublicApiTeamTeamidMetricsResponse"
+  },
+  "@type": "schema:Dataset",
+  "schema:name": "Haystack Analytics API JSON-LD context",
+  "schema:description": "A JSON-LD @context for the objects Haystack Analytics's own API contract declares: one class per component schema, one property per declared field, typed from the contract. Derived by script (derive-json-ld.py, 2026-10-22) from openapi/_ae-authored/usehaystack-openapi-generated.yml.",
+  "dcterms:created": "2026-10-22",
+  "dcterms:source": [
+    "openapi/_ae-authored/usehaystack-openapi-generated.yml"
+  ]
+}

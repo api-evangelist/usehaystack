@@ -1,0 +1,42 @@
+generated: '2026-10-22'
+method: derived
+generator: derive-vocabulary.py
+source: openapi/_ae-authored/usehaystack-openapi-generated.yml
+vocabulary:
+  name: Haystack Analytics Domain Vocabulary
+  description: 'Terms declared by Haystack Analytics''s own API contract: its resource groups, objects and enumerations, with the contract''s
+    definitions. Derived, not authored.'
+  version: '2026-10-22'
+  terms:
+  - term: PostPublicApiMetricsRequest
+    definition: 'Object declared by the contract with fields: startDate, endDate, granularity, type, groupBy, filters.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/usehaystack-openapi-generated.yml#/components/schemas/PostPublicApiMetricsRequest
+  - term: PostPublicApiMetricsResponse
+    definition: 'Object declared by the contract with fields: data, averages.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/usehaystack-openapi-generated.yml#/components/schemas/PostPublicApiMetricsResponse
+  - term: PostPublicApiTeamTeamidMetricsRequest
+    definition: 'Object declared by the contract with fields: startDate, endDate, granularity, type, groupBy, filters.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/usehaystack-openapi-generated.yml#/components/schemas/PostPublicApiTeamTeamidMetricsRequest
+  - term: PostPublicApiTeamTeamidMetricsResponse
+    definition: 'Object declared by the contract with fields: data, averages.'
+    tags:
+    - Object
+    source: openapi/_ae-authored/usehaystack-openapi-generated.yml#/components/schemas/PostPublicApiTeamTeamidMetricsResponse
+  - term: Getting Started
+    definition: 'Resource group in the contract; its operation GET /getting-started/quick-start.md: Perform an HTTP GET request on the following
+      URL with the `ask` and `goal` query parameters to retrieve a direct answer and relevant excerpts from the documentation.'
+    tags:
+    - Resource Group
+    source: openapi/_ae-authored/usehaystack-openapi-generated.yml
+  - term: Public
+    definition: 'Resource group in the contract; its operation POST /public/api/metrics: Send a POST request with the required body fields to
+      retrieve global metrics.'
+    tags:
+    - Resource Group
+    source: openapi/_ae-authored/usehaystack-openapi-generated.yml

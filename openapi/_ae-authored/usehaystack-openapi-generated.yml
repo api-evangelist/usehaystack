@@ -1,0 +1,347 @@
+openapi: 3.1.0
+info:
+  title: Haystack Analytics API
+  version: '2026-10-22'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-10-22: 9 operation(s) read from 9 public documentation page(s) (each operation
+    names its page in x-source). This is not the provider''s published contract; Haystack Analytics has published no machine-readable contract
+    that the pipeline could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 0
+    documentation: 9
+    pages-with-code: 0
+    pages-read: 9
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-10-22'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - https://help.usehaystack.io/features/api.md
+  - https://help.usehaystack.io/getting-started/quick-start
+  - https://help.usehaystack.io/getting-started/quick-start.md
+  - https://help.usehaystack.io/getting-started/what-is-haystack.md
+  - https://help.usehaystack.io/getting-started/quick-start/roles.md
+  - https://help.usehaystack.io/getting-started/quick-start/account-setup.md
+  - https://help.usehaystack.io/getting-started/quick-start/roles/for-product.md
+  - https://help.usehaystack.io/getting-started/quick-start/roles/for-managers.md
+  - https://help.usehaystack.io/getting-started/quick-start/roles/for-executives.md
+servers:
+- url: https://api.usehaystack.io
+paths:
+  /getting-started/quick-start.md:
+    get:
+      operationId: get_getting_started_quick_start_md
+      tags:
+      - Getting Started
+      summary: Quick Start
+      description: Perform an HTTP GET request on the following URL with the `ask` and `goal` query parameters to retrieve a direct answer and
+        relevant excerpts from the documentation.
+      x-source: https://help.usehaystack.io/getting-started/quick-start
+      parameters:
+      - name: ask
+        in: query
+        required: false
+        schema:
+          type: string
+        description: 'The immediate question: it should be specific, self-contained, and written in natural language.'
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: What the user is ultimately trying to achieve; describes the outcome rather than restating the question.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /getting-started/quick-start/account-setup.md:
+    get:
+      operationId: get_getting_started_quick_start_account_setup_md
+      tags:
+      - Getting Started
+      summary: Account Setup
+      description: Perform an HTTP GET request on the URL with the `ask` and `goal` query parameters to retrieve a direct answer and relevant
+        excerpts from the documentation.
+      x-source: https://help.usehaystack.io/getting-started/quick-start/account-setup.md
+      parameters:
+      - name: ask
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The immediate question, specific and self‑contained, written in natural language.
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The user’s ultimate goal, describing the outcome they want to achieve.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /getting-started/quick-start/roles.md:
+    get:
+      operationId: get_getting_started_quick_start_roles_md
+      tags:
+      - Getting Started
+      summary: Roles
+      x-source: https://help.usehaystack.io/getting-started/quick-start/roles.md
+      parameters:
+      - name: ask
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The immediate question, specific and self‑contained.
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The user’s ultimate goal, describing the desired outcome.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /getting-started/quick-start/roles/for-executives.md:
+    get:
+      operationId: get_getting_started_quick_start_roles_for_executives_md
+      tags:
+      - Getting Started
+      summary: For Executives
+      description: Perform an HTTP GET request on the URL with the `ask` and `goal` query parameters to retrieve a direct answer and relevant
+        excerpts from the documentation.
+      x-source: https://help.usehaystack.io/getting-started/quick-start/roles/for-executives.md
+      parameters:
+      - name: ask
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The immediate question; specific, self‑contained, natural language query to the documentation engine.
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The broader user goal describing the desired outcome, used to tailor the answer.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /getting-started/quick-start/roles/for-managers.md:
+    get:
+      operationId: get_getting_started_quick_start_roles_for_managers_md
+      tags:
+      - Getting Started
+      summary: For Managers
+      description: Perform an HTTP GET request on the URL with the `ask` and `goal` query parameters to retrieve a direct answer and relevant
+        excerpts from the documentation.
+      x-source: https://help.usehaystack.io/getting-started/quick-start/roles/for-managers.md
+      parameters:
+      - name: ask
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The immediate question; specific, self‑contained, natural language.
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The user’s ultimate goal, describing the desired outcome.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /getting-started/quick-start/roles/for-product.md:
+    get:
+      operationId: get_getting_started_quick_start_roles_for_product_md
+      tags:
+      - Getting Started
+      summary: For Product
+      description: Perform an HTTP GET request on the URL with the `ask` and `goal` query parameters to retrieve a direct answer and relevant
+        excerpts from the documentation.
+      x-source: https://help.usehaystack.io/getting-started/quick-start/roles/for-product.md
+      parameters:
+      - name: ask
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The immediate question, specific and self‑contained.
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The user’s ultimate goal, describing the desired outcome.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /getting-started/what-is-haystack.md:
+    get:
+      operationId: get_getting_started_what_is_haystack_md
+      tags:
+      - Getting Started
+      summary: What is Haystack?
+      description: Perform an HTTP GET request on the URL with the `ask` and `goal` query parameters to retrieve a direct answer and relevant
+        excerpts from the documentation.
+      x-source: https://help.usehaystack.io/getting-started/what-is-haystack.md
+      parameters:
+      - name: ask
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The immediate question, specific and self‑contained, written in natural language.
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The user’s ultimate goal, describing the outcome they want to achieve.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+  /public/api/metrics:
+    post:
+      operationId: post_public_api_metrics
+      tags:
+      - Public
+      summary: Haystack provides API access for global metrics.
+      description: Send a POST request with the required body fields to retrieve global metrics.
+      x-source: https://help.usehaystack.io/features/api.md
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PostPublicApiMetricsRequest'
+      responses:
+        '201':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PostPublicApiMetricsResponse'
+      x-evidence:
+        kind: documentation
+  /public/api/team/{teamid}/metrics:
+    post:
+      operationId: post_public_api_team_teamid_metrics
+      tags:
+      - Public
+      summary: Haystack provides API access for metrics for specific teams.
+      description: Send a POST request with the required body fields to retrieve metrics for a specific team.
+      x-source: https://help.usehaystack.io/features/api.md
+      parameters:
+      - name: teamid
+        in: path
+        required: true
+        schema:
+          type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PostPublicApiTeamTeamidMetricsRequest'
+      responses:
+        '201':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PostPublicApiTeamTeamidMetricsResponse'
+      x-evidence:
+        kind: documentation
+components:
+  schemas:
+    PostPublicApiMetricsRequest:
+      type: object
+      properties:
+        startDate:
+          type: string
+          description: 'The start date of the metrics data range (format: YYYY-MM-DD).'
+        endDate:
+          type: string
+          description: 'The end date of the metrics data range (format: YYYY-MM-DD).'
+        granularity:
+          type: string
+          description: The granularity of the metrics data (week/month/cycle).
+        type:
+          type: string
+          description: The type of metrics data (issue/pull_request/cycle/deployment).
+        groupBy:
+          type: string
+          description: The parameter to group the metrics data by (team/author/assignee/epic, and more).
+        filters:
+          type: array
+          description: The filter array, advised to use the filter array given by the Copy API Request feature.
+      required:
+      - startDate
+      - endDate
+      - granularity
+      - type
+      - groupBy
+    PostPublicApiMetricsResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          description: The metrics objects (regular or group‑by structure as described).
+        averages:
+          type: object
+          description: Averages of the results, format varies with regular, group‑by, or cycle granularity.
+    PostPublicApiTeamTeamidMetricsRequest:
+      type: object
+      properties:
+        startDate:
+          type: string
+          description: 'The start date of the metrics data range (format: YYYY-MM-DD).'
+        endDate:
+          type: string
+          description: 'The end date of the metrics data range (format: YYYY-MM-DD).'
+        granularity:
+          type: string
+          description: The granularity of the metrics data (week/month/cycle).
+        type:
+          type: string
+          description: The type of metrics data (issue/pull_request/cycle/deployment).
+        groupBy:
+          type: string
+          description: The parameter to group the metrics data by (team/author/assignee/epic, and more).
+        filters:
+          type: array
+          description: The filter array, advised to use the filter array given by the Copy API Request feature.
+      required:
+      - startDate
+      - endDate
+      - granularity
+      - type
+      - groupBy
+    PostPublicApiTeamTeamidMetricsResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          description: The metrics objects (regular or group‑by structure as described).
+        averages:
+          type: object
+          description: Averages of the results, format varies with regular, group‑by, or cycle granularity.
+tags:
+- name: Getting Started
+- name: Public

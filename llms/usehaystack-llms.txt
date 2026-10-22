@@ -1,0 +1,78 @@
+# Help Center
+
+## Help Center
+
+- [What is Haystack?](https://help.usehaystack.io/getting-started/what-is-haystack.md)
+- [Quick Start](https://help.usehaystack.io/getting-started/quick-start.md)
+- [Account Setup](https://help.usehaystack.io/getting-started/quick-start/account-setup.md)
+- [Roles](https://help.usehaystack.io/getting-started/quick-start/roles.md): Explore what you should care about the most
+- [For Executives](https://help.usehaystack.io/getting-started/quick-start/roles/for-executives.md)
+- [For Managers](https://help.usehaystack.io/getting-started/quick-start/roles/for-managers.md)
+- [For Product](https://help.usehaystack.io/getting-started/quick-start/roles/for-product.md)
+- [Integrations](https://help.usehaystack.io/setup/integrations.md)
+- [Jira](https://help.usehaystack.io/setup/integrations/jira.md): Connect Jira to see all your work in a single place and identify trends, risks, blockers and many more.
+- [GitHub Cloud](https://help.usehaystack.io/setup/integrations/github-cloud.md): See all your teams work from JIRA issues to Pull Requests in once place by integrating GitHub with Haystack.
+- [GitHub Enterprise](https://help.usehaystack.io/setup/integrations/github-enterprise.md)
+- [GitLab](https://help.usehaystack.io/setup/integrations/gitlab.md)
+- [Bitbucket](https://help.usehaystack.io/setup/integrations/bitbucket.md): Haystack accesses Bitbucket directly from JIRA integration. See how to integrate JIRA.
+- [Slack](https://help.usehaystack.io/setup/integrations/slack.md)
+- [Organization](https://help.usehaystack.io/setup/organization.md)
+- [Investments](https://help.usehaystack.io/setup/organization/investments.md): How to setup Investments in Haystack?
+- [Deployments](https://help.usehaystack.io/setup/organization/deployments.md): How to setup Deployment Frequency in Haystack
+- [Invite users](https://help.usehaystack.io/setup/organization/invite-users.md)
+- [Exclusions](https://help.usehaystack.io/setup/organization/exclusions.md)
+- [Teams](https://help.usehaystack.io/setup/teams.md)
+- [Map members](https://help.usehaystack.io/setup/teams/map-members.md)
+- [Sprint success metric](https://help.usehaystack.io/setup/teams/sprint-success-metric.md)
+- [Capacity](https://help.usehaystack.io/setup/teams/capacity.md)
+- [Alerts](https://help.usehaystack.io/setup/teams/alerts.md)
+- [SLAs](https://help.usehaystack.io/setup/teams/slas.md)
+- [Risks](https://help.usehaystack.io/setup/teams/risks.md)
+- [Issues](https://help.usehaystack.io/features/issues.md): See issues that are in progress
+- [Pull Requests](https://help.usehaystack.io/features/pull-requests.md): See pull requests that are in progress
+- [Epics](https://help.usehaystack.io/features/epics.md): See epics that are in progress
+- [Retrospective](https://help.usehaystack.io/features/retrospective.md): Learn how to use the retrospective page
+- [Release Notes](https://help.usehaystack.io/features/release-notes.md): Get a human-readable summary of what the team completed recently and share it with stakeholders.
+- [Investments](https://help.usehaystack.io/features/investments.md)
+- [Alerts](https://help.usehaystack.io/features/alerts.md)
+- [Customizable Widgets](https://help.usehaystack.io/features/customizable-widgets.md): Learn how to create a new widgets
+- [Flexible Reports](https://help.usehaystack.io/features/flexible-reports.md): Learn how to create a new Board
+- [Team Metrics](https://help.usehaystack.io/features/team-metrics.md): Learn how to use the Team Metrics
+- [List of All Metrics](https://help.usehaystack.io/features/list-of-all-metrics.md): Here are the available metrics within Haystack
+- [API](https://help.usehaystack.io/features/api.md)
+- [Embedded reports](https://help.usehaystack.io/features/embedded-reports.md)
+- [Security & Privacy](https://help.usehaystack.io/admin/security-and-privacy.md): Learn how we keep your data safe and meet compliance standards
+- [Data Sync](https://help.usehaystack.io/admin/data-sync.md): Data refresh times between Haystack and other integrations
+- [How to setup faster data sync for JIRA?](https://help.usehaystack.io/admin/data-sync/how-to-setup-faster-data-sync-for-jira.md): Get real time data sync for JIRA
+- [Account & Billing](https://help.usehaystack.io/admin/account-and-billing.md)
+- [Managing Your Subscription: Billing, Plans & Cancellation](https://help.usehaystack.io/admin/account-and-billing/managing-your-subscription-billing-plans-and-cancellation.md): Everything you need to know about Haystack Delivery's pricing, billing management, paid add-ons, and cancellation.
+- [Can I track Dora metrics?](https://help.usehaystack.io/faq/can-i-track-dora-metrics.md)
+- [What is Status Category?](https://help.usehaystack.io/faq/what-is-status-category.md): Difference between JIRA's Status Category, Status and Resolution
+- [First Principles of Engineering Metrics](https://help.usehaystack.io/guides/first-principles-of-engineering-metrics.md)
+- [Engineering Metrics (Video Series)](https://help.usehaystack.io/guides/engineering-metrics-video-series.md)
+- [How to Improve Quality?](https://help.usehaystack.io/guides/how-to-improve-quality.md)
+- [Sprint Planning](https://help.usehaystack.io/guides/sprint-planning.md): Discover how Haystack uses data to make sprint planning more accurate and efficient.
+- [Daily Standups](https://help.usehaystack.io/guides/daily-standups.md): Haystack helps development teams run more effective daily standups by providing data-driven insights.
+- [Retrospectives](https://help.usehaystack.io/guides/retrospectives.md): How Haystack helps run more effective engineering team retrospectives that drive real improvement.
+- [Identify Bottlenecks](https://help.usehaystack.io/guides/identify-bottlenecks.md): Haystack helps engineering teams identify and resolve workflow bottlenecks through real-time analytics and alerts.
+- [Changelog](https://help.usehaystack.io/other/changelog.md): See what’s new
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+This site has an agentic ask interface you may use to query the documentation dynamically by asking a question.
+
+Perform an HTTP GET request on the following URL with the `ask` and `goal` query parameters:
+
+```
+GET https://help.usehaystack.io/index.md?ask=<question>&goal=<user_goal>
+```
+
+`ask` is the immediate question: it should be specific, self-contained, and written in natural language.
+`goal` is what the user is ultimately trying to achieve, the reason they need the answer. Sharing it helps GitBook give you a better, more relevant answer. A goal is most helpful when it describes the outcome the user wants rather than restating the question. For example, with `ask=how do I create an API token`, a goal like `automate deployments from our CI pipeline` lets GitBook tailor the answer to that use case.
+
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.

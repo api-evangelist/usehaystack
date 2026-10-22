@@ -1,52 +1,138 @@
 aid: usehaystack
+
 name: Haystack Analytics
-description: 'Haystack Analytics provides a unified delivery operations platform for product and engineering leaders. It integrates Jira, Git, and the entire delivery stack into a single place, offering boards, risk detection, automated status updates, and operational dashboards. The solution helps developers, project managers, and scrum coaches deliver products faster with AI‑generated code, stakeholder alignment, and data‑driven insights.'
+
+image: https://cdn.prod.website-files.com/65531fd225d40f3e2bb9ab9d/65683c13a41bc6a28bbc234c_open-graph.png
+
+description: Haystack Analytics provides a unified delivery operations platform for product and engineering leaders. It integrates Jira, Git,
+  and the entire delivery stack into a single place, offering boards, risk detection, automated status updates, and operational dashboards. The
+  solution helps developers, project managers, and scrum coaches deliver products faster with AI‑generated code, stakeholder alignment, and data‑driven
+  insights.
+
 url: https://raw.githubusercontent.com/api-evangelist/usehaystack/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-21'
+
 modified: '2026-10-21'
+
 x-coverage:
   state: unreadable
   reason: no-machine-readable-spec
   detail: Documentation provides API details in markdown but no OpenAPI or other machine-readable contract.
   evidence:
-    - url: https://help.usehaystack.io/features/api.md
-      status: 200
-  checked: 2026-10-21
+  - url: https://help.usehaystack.io/features/api.md
+    status: 200
+  checked: '2026-10-21'
+
 tags:
 - Company
 - DeliveryOps
 - ProductManagement
 - Engineering
 - Analytics
-apis:
-  - name: Haystack API
-    description: "Haystack provides API access for metrics, including global and team-specific endpoints. Documentation is available in markdown format."
-    humanURL: https://help.usehaystack.io/features/api.md
-    baseURL: null
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/usehaystack-plans-pricing.yml
+- type: Spectral
+  url: rules/usehaystack-rules.yml
+- type: JSONLD
+  url: json-ld/usehaystack-context.jsonld
+- type: Vocabulary
+  url: vocabulary/usehaystack-vocabulary.yml
+- type: DataModel
+  url: data-model/usehaystack-data-model.yml
+- type: ChangeLog
+  url: changelog/usehaystack-changelog.yml
+- type: Conformance
+  url: conformance/usehaystack-conformance.yml
+- type: LLMsTxt
+  url: llms/usehaystack-llms.txt
+- type: SecurityTxt
+  url: well-known/usehaystack-support-security.txt
+- type: WellKnown
+  url: well-known/usehaystack-well-known.yml
+- type: Hosts
+  url: hosts/usehaystack-hosts.yml
+- type: Vendors
+  url: vendors/usehaystack-vendors.yml
+- type: Security
+  url: https://www.usehaystack.io/security
+- type: ChangeLog
+  url: https://help.usehaystack.io/other/changelog
+- type: DeveloperPortal
+  url: https://api.usehaystack.io`
+- type: GitHubOrganization
+  url: https://github.com/usehaystack
 - type: VulnerabilityDisclosure
   url: security/usehaystack-vulnerability-disclosure.yml
 - type: DomainSecurity
   url: security/usehaystack-domain-security.yml
 - type: Website
-  url: https://usehaystack.io/
+  url: https://www.usehaystack.io/
 - type: Documentation
   url: https://www.usehaystack.io/docs
-- type: DeveloperPortal
-  url: https://www.usehaystack.io/developers
 - type: Pricing
   url: https://www.usehaystack.io/pricing
 - type: Blog
   url: https://www.usehaystack.io/blog
 - type: PrivacyPolicy
   url: https://www.usehaystack.io/privacy-policy
+- type: GettingStarted
+  url: https://help.usehaystack.io/getting-started/quick-start
+- type: SignUp
+  url: https://auth.usehaystack.io/sign-up
+- type: Login
+  url: https://auth.usehaystack.io/login
+- type: Support
+  url: https://help.usehaystack.io/
+- type: TermsOfService
+  url: https://www.usehaystack.io/terms
+
+apis:
+- name: Haystack API
+  description: Haystack provides API access for metrics, including global and team-specific endpoints. Documentation is available in markdown
+    format.
+  humanURL: https://help.usehaystack.io/features/api.md
+  baseURL: https://api.usehaystack.io
+  aid: usehaystack:haystack-api
+- aid: usehaystack:usehaystack-api
+  name: Haystack Analytics API
+  description: 'Haystack Analytics API as documented publicly: 9 operations. Contract generated from the documentation by API Evangelist (2026-10-22);
+
+    not the provider''s own document.'
+  humanURL: https://help.usehaystack.io/features/api.md
+  baseURL: https://api.usehaystack.io
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/usehaystack-openapi-generated.yml
+    x-provenance: generated
+  - type: JSONSchema
+    url: json-schema/usehaystack-post-public-api-metrics-request-schema.json
+  - type: JSONSchema
+    url: json-schema/usehaystack-post-public-api-team-teamid-metrics-request-schema.json
+  - type: JSONSchema
+    url: json-schema/usehaystack-post-public-api-metrics-response-schema.json
+  - type: JSONSchema
+    url: json-schema/usehaystack-post-public-api-team-teamid-metrics-response-schema.json
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 22
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

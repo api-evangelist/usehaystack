@@ -1,0 +1,18 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://zapier.com/apps/usehaystack/integrations
+- https://zapier.com/apps/haystack-analytics/integrations
+- https://n8n.io/integrations/usehaystack/
+- https://composio.dev/toolkits/usehaystack
+- https://monid.ai/tools/usehaystack
+checked:
+- https://composio.dev/toolkits/usehaystack
+- https://monid.ai/tools/usehaystack
+- https://n8n.io/integrations/usehaystack/
+- https://zapier.com/apps/haystack-analytics/integrations
+- https://zapier.com/apps/usehaystack/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
