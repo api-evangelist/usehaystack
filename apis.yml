@@ -112,22 +112,40 @@ common:
 
 apis:
 - name: Haystack API
-  description: Haystack provides API access for metrics, including global and team-specific endpoints. Documentation is available in markdown
-    format.
+  description: >-
+    Haystack provides API access for metrics, including global and team-specific endpoints. Documentation
+    is available in markdown format.
   humanURL: https://help.usehaystack.io/features/api.md
   baseURL: https://api.usehaystack.io
   aid: usehaystack:haystack-api
-- aid: usehaystack:usehaystack-api
-  name: Haystack Analytics API
-  description: 'Haystack Analytics API as documented publicly: 9 operations. Contract generated from the documentation by API Evangelist (2026-10-22);
-
-    not the provider''s own document.'
+- aid: usehaystack:usehaystack-getting-started-api
+  name: Haystack Analytics Getting Started API
+  description: The Getting Started API from Haystack Analytics — 7 operation(s) for getting started.
   humanURL: https://help.usehaystack.io/features/api.md
   baseURL: https://api.usehaystack.io
+  tags:
+  - Getting Started
   properties:
   - type: OpenAPI
-    url: openapi/_ae-authored/usehaystack-openapi-generated.yml
-    x-provenance: generated
+    url: openapi/usehaystack-getting-started-api-openapi.yml
+  - type: JSONSchema
+    url: json-schema/usehaystack-post-public-api-metrics-request-schema.json
+  - type: JSONSchema
+    url: json-schema/usehaystack-post-public-api-team-teamid-metrics-request-schema.json
+  - type: JSONSchema
+    url: json-schema/usehaystack-post-public-api-metrics-response-schema.json
+  - type: JSONSchema
+    url: json-schema/usehaystack-post-public-api-team-teamid-metrics-response-schema.json
+- aid: usehaystack:usehaystack-public-api
+  name: Haystack Analytics Public API
+  description: The Public API from Haystack Analytics — 2 operation(s) for public.
+  humanURL: https://help.usehaystack.io/features/api.md
+  baseURL: https://api.usehaystack.io
+  tags:
+  - Public
+  properties:
+  - type: OpenAPI
+    url: openapi/usehaystack-public-api-openapi.yml
   - type: JSONSchema
     url: json-schema/usehaystack-post-public-api-metrics-request-schema.json
   - type: JSONSchema
