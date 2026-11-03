@@ -20,7 +20,7 @@ plans:
   description: Our most powerful plan for teams of 100+ engineers.
 docs: https://www.usehaystack.io/pricing
 x-canonical:
-  generated: '2026-11-01'
+  generated: '2026-11-02'
   vocabulary: engine/economics/plans-canonical.yml
   models:
   - subscription
